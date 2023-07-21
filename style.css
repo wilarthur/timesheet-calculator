@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box !important;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    115deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.container {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 100px 1px;
+}
+
+.container p {
+  font-size: 1.2em;
+}
+
+.totalHours input {
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+  height: 50px;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-around;
+}
+
+.day {
+  margin-top: 50px;
+}
+
+.day h3 {
+  text-align: center;
+}
+
+.day input {
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  font-size: 1em;
+}
+
+.calculate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.calculate button {
+  background: blue;
+  border: 3px solid black;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  padding: 20px;
+  font-size: 1em;
+}
+
+.output {
+  max-width: 300px;
+}
